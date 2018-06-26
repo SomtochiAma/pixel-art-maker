@@ -1,5 +1,15 @@
 body {
     text-align: center;
+    background-image: url("background.jpeg");
+    color: maroon;
+}
+
+#intro {
+    background-color: skyblue;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 250px;
+    margin: auto;
 }
 
 h1 {

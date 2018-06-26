@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Lab: Pixel Art Maker</h1>
-
+    
     <h2>Choose Grid Size</h2>
     <form id="sizePicker">
         Grid Height:
@@ -16,13 +16,20 @@
         <input type="number" id="inputWeight" name="width" min="1" value="1">
         <input type="submit">
     </form>
-
+    <button id="resetBtn">Reset</button>
+    
     <h2>Pick A Color</h2>
     <input type="color" id="colorPicker">
-
+    
     <h2>Design Canvas</h2>
+    <div id="intro">
+    <p>Hi! To get started set the height and width and click on submit</p>
+    <p>You can make any shape you want, click reset if you want to start afresh</p>
+    <p>Remember, the only limit is your imagination</p>
+    </div>
     <table id="pixelCanvas"></table>
-
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script src="designs.js"></script>
 </body>
 </html>
