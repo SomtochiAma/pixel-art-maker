@@ -26,10 +26,15 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
+#top {
+    border: 2px solid maroon;
+    padding: 10px;
+}
+
 table,
 tr,
 td {
-    border: 1px solid black;
+    border: 1px solid #9E9E9E;
 }
 
 table {
@@ -46,5 +51,14 @@ td {
 }
 
 input[type=number] {
-    width: 6em;
+    width: 10em;
+    height: 2em;
+}
+
+input[type=submit], button {
+    padding: 8px 15px;
+    color: white;
+    background-color: maroon;
+    border-radius: 5px;
+    border: none;
 }

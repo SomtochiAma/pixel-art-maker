@@ -8,6 +8,7 @@
 $(document).ready(function() {
     $('#sizePicker').submit(function (event) {
         event.preventDefault();
+        //removes the intoductory text, and displays the grid
         $('#intro').remove();
         var gridHeight = $('#inputHeight').val();
         var gridWidth = $('#inputWeight').val();
@@ -51,6 +52,20 @@ $("#resetBtn").click(function() {
     $('td').removeAttr('style');
 }
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
