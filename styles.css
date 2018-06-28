@@ -5,7 +5,8 @@ body {
 }
 
 #intro {
-    background-color: skyblue;
+    color: white;
+    background-color: maroon;
     border: 1px solid grey;
     border-radius: 5px;
     width: 250px;
