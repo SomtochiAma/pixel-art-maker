@@ -7,16 +7,11 @@ https://somtochiama.github.io/pixel-art-maker/
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Contributing](#contributing)
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
+Select a grid width and height and click on submit to create your grid layout. You can select any color by clicking on the color palette. Clcik on any grid the fill it with the color. Have fun!
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
 
